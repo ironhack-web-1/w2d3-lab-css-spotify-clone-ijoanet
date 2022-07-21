@@ -6,3 +6,173 @@ Green: #00B172
 White: #FFF
 
 */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav img {
+  height: 80px;
+}
+nav img:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  padding: 10px;
+
+  font-size: 22px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+nav ul a:hover {
+  text-decoration: none;
+  color: darkgrey;
+}
+
+#landing {
+  position: relative;
+  margin-top: 120px;
+}
+
+#landing .landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+}
+#landing .landing-text h1,
+#landing .landing-text h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+#landing .landing-text h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+#landing .landing-text h2 {
+  font-size: 32px;
+  font-weight: 200;
+}
+
+#landing img {
+  width: 100%;
+  height: 100%;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#features h2 {
+  border-bottom: 4px solid #00b172;
+  font-size: 38px;
+}
+.feature-list {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 160px;
+}
+.feature h3 {
+  font-size: 28px;
+  color: #00b172;
+}
+.feature p {
+  margin: 0 28%;
+  font-size: 24px;
+  font-weight: 200;
+  text-align: center;
+}
+
+#call-to-action {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  background-color: #00b172;
+  margin: 100px 30px 0;
+  padding: 5%;
+  color: #fff;
+}
+
+#call-to-action .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#call-to-action .left h2 {
+  border-bottom: 4px solid #fff;
+  color: #fff;
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+#call-to-action .action h3 {
+  font-size: 32px;
+}
+#call-to-action .action p {
+  font-size: 30px;
+  font-weight: 200;
+  width: 500px;
+}
+
+#call-to-action .spotiy-app-image {
+width: 30%;
+    margin-top: 100px;
+}
+#call-to-action .background-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+
+  width: 120px;
+}
